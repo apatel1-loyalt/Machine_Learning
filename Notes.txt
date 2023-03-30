@@ -1,0 +1,29 @@
+What is machine learning?
+- a program that can learn from data and improve its performance over time
+- a field of study that gives computers the ability to learn without being explicitly programmed (Arthur Samuel, 1959)
+
+Q: What is the difference between supervised and unsupervised learning?
+A: Supervised learning: the computer is given a set of inputs and the desired outputs, and the goal is to learn a mapping from the inputs to the outputs
+Unsupervised learning: the computer is given a set of inputs and the goal is to find some structure in the inputs
+
+Supervised learning: regression and classification
+- input x (Feature variable) -> output y (target variable)
+- learning from right answers
+- regression: predicting a continuous value (how complex the solution can get is on the programmer) EX: predicting the price of a house
+    -predicts numerical values
+    -infinitely many possible outputs
+- classification: predicting a discrete value (how complex the solution can get is on the programmer)  EX: predicting whether a tumor is malignant or benign
+    -predicts categorical values
+    -finite/small number of possible outputs
+
+Unsupervised learning: clustering and dimensionality reduction
+- input x  // learning from patterns in the data // no teacher // no right or wrong answers
+- clustering: grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar to each other than to those in other groups (clusters) EX: grouping customers by purchasing behavior
+- dimensionality reduction: reducing the number of random variables under consideration by obtaining a set of principal variables (EX: PCA)
+
+Jupyter notebook: a web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text
+
+Terminology: look at the image in directory
+- training set: the set of examples used to train a model
+- test set: the set of examples used to evaluate a model
+
